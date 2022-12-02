@@ -24,3 +24,7 @@ Stack trace:
 #1 C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-blocks-payment-method.php(117): WCPay\Fraud_Prevention\Fraud_Prevention_Service::get_instance()
 #2 C:\MAMP\htdocs\Besanconfoot\wp-includes\class-wp-hook.php(308): WC_Payments_Blocks_Payment_Method->maybe_add_car in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php on line 47
 
+2022-12-02T10:49:25+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\mailpoet\assets\dist\js\marketing_optin_block\marketing-optin-block.asset.php on line 3
+
+2022-12-02T12:06:04+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 10485760 bytes) in C:\MAMP\htdocs\Besanconfoot\wp-admin\includes\file.php on line 2318
+
