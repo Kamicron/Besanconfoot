@@ -1,0 +1,39 @@
+2022-12-02T08:02:21+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_6389b10d3b7d8httplocalhostbesanconfootwp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/besanconfoot\/wp-admin\/"}
+
+2022-12-02T08:02:26+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+
+2022-12-02T08:02:31+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+
+2022-12-02T08:02:36+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5000 milliseconds with 0 bytes received
+
+2022-12-02T08:02:36+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 2022120208023701025101100918029E70,2022120208023701025101100918029E70
+x-tt-trace-host: 01ea1c74d13271dac3c779704cbe7400cbb8d64cf87687e810a2bc6111365025e6ed8c2cdce39ab00adc6482ce276f1c747e81d23295ac27a918a2d91002d744640a1e5c9861dc5c1d28fd2a705989a968e80bcb5f41cf69b7f965c784f888a542
+Content-Encoding: gzip
+Content-Length: 210
+X-Origin-Response-Time: 34,23.200.218.39
+X-Akamai-Request-ID: 732cdc68.80aa9a25
+Date: Fri, 02 Dec 2022 08:02:37 GMT
+X-Cache: TCP_MISS from a23-77-196-151.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-200-218-39.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=168, origin; dur=34
+Server-Timing: inner; dur=21
+X-Parent-Response-Time: 198,23.77.196.151
+
+{"code":0,"msg":"ok","data":{"external_data_key":"44c19221-f837-4115-bf3e-1bba37e6b24b","redirect_uri":"http:\/\/localhost\/besanconfoot\/wp-admin\/","app_id":"7172458594200190978","app_secret":"4991438c53bdc25953b59b348e5e319b18fad793"}}
+
