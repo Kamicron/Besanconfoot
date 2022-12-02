@@ -1,0 +1,26 @@
+2022-12-02T08:34:10+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\SQLParserUtils.php on line 3
+
+2022-12-02T08:45:22+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\sportspress\includes\widgets\class-sp-widget-countdown.php on line 212
+
+2022-12-02T08:45:31+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php on line 18
+
+2022-12-02T09:40:26+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\MAMP\htdocs\Besanconfoot\wp-content\themes\rookie\inc\class-tgm-plugin-activation.php on line 35
+
+2022-12-02T09:44:51+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to WCPay\Fraud_Prevention\Fraud_Prevention_Service::__construct() must be an instance of WC_Session, null given, called in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php on line 61 and defined in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php:47
+Stack trace:
+#0 C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php(61): WCPay\Fraud_Prevention\Fraud_Prevention_Service->__construct(NULL, Object(WCPay\Payment_Methods\CC_Payment_Gateway))
+#1 C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-blocks-payment-method.php(117): WCPay\Fraud_Prevention\Fraud_Prevention_Service::get_instance()
+#2 C:\MAMP\htdocs\Besanconfoot\wp-includes\class-wp-hook.php(308): WC_Payments_Blocks_Payment_Method->maybe_add_car in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php on line 47
+
+2022-12-02T09:46:05+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to WCPay\Fraud_Prevention\Fraud_Prevention_Service::__construct() must be an instance of WC_Session, null given, called in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php on line 61 and defined in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php:47
+Stack trace:
+#0 C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php(61): WCPay\Fraud_Prevention\Fraud_Prevention_Service->__construct(NULL, Object(WCPay\Payment_Methods\CC_Payment_Gateway))
+#1 C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-blocks-payment-method.php(117): WCPay\Fraud_Prevention\Fraud_Prevention_Service::get_instance()
+#2 C:\MAMP\htdocs\Besanconfoot\wp-includes\class-wp-hook.php(308): WC_Payments_Blocks_Payment_Method->maybe_add_car in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php on line 47
+
+2022-12-02T09:46:47+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to WCPay\Fraud_Prevention\Fraud_Prevention_Service::__construct() must be an instance of WC_Session, null given, called in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php on line 61 and defined in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php:47
+Stack trace:
+#0 C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php(61): WCPay\Fraud_Prevention\Fraud_Prevention_Service->__construct(NULL, Object(WCPay\Payment_Methods\CC_Payment_Gateway))
+#1 C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-blocks-payment-method.php(117): WCPay\Fraud_Prevention\Fraud_Prevention_Service::get_instance()
+#2 C:\MAMP\htdocs\Besanconfoot\wp-includes\class-wp-hook.php(308): WC_Payments_Blocks_Payment_Method->maybe_add_car in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce-payments\includes\fraud-prevention\class-fraud-prevention-service.php on line 47
+
