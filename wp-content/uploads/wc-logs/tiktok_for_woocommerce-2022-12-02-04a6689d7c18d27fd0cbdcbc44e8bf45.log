@@ -37,3 +37,15 @@ X-Parent-Response-Time: 198,23.77.196.151
 
 {"code":0,"msg":"ok","data":{"external_data_key":"44c19221-f837-4115-bf3e-1bba37e6b24b","redirect_uri":"http:\/\/localhost\/besanconfoot\/wp-admin\/","app_id":"7172458594200190978","app_secret":"4991438c53bdc25953b59b348e5e319b18fad793"}}
 
+2022-12-02T10:16:49+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-02T10:20:48+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-02T10:21:06+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-02T10:23:06+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-02T10:25:49+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-12-02T10:26:28+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-12-02T10:26:28+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-12-02T10:26:49+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2022-12-02T10:26:49+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2022-12-02T10:26:49+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-12-02T10:26:49+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-12-02T10:27:55+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
