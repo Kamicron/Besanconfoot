@@ -28,3 +28,5 @@ Stack trace:
 
 2022-12-02T12:06:04+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 10485760 bytes) in C:\MAMP\htdocs\Besanconfoot\wp-admin\includes\file.php on line 2318
 
+2022-12-02T14:26:55+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in C:\MAMP\htdocs\Besanconfoot\wp-content\plugins\woocommerce\src\Internal\Admin\Schedulers\ImportScheduler.php on line 8
+

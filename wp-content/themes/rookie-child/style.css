@@ -1,0 +1,31 @@
+/*
+Theme Name: Besancon_football
+Theme URI: https://www.themeboy.com/rookie/
+Template: rookie
+Author: Ludovic CHEVROULET
+Author URI: www.ludovicchevroulet.fr
+Version: 1.5.4.1669983427
+Updated: 2022-12-02 13:17:07
+
+*/
+:root {
+  --PrimaryColor100: #000033;
+  --PrimaryColor75: #0C1B59;
+  --PrimaryColor50: #234673;
+  --PrimaryColor25: #98ACFE;
+
+  --SecondaryColor100: #86142B;
+  --SecondaryColor75: #CF3476;
+  --SecondaryColor50: #D85A91;
+  --SecondaryColor25: #E07BA7;
+
+  --ShadeOfGray_Black: #1C1514;
+  --ShadeOfGray_75: #989592;
+  --ShadeOfGray_50: #CDCAC7;
+  --ShadeOfGray_25: #E9E7E4;
+  --ShadeOfGray_WHite: #FAFAFA;
+
+}
+body {
+  background-color: var(--ShadeOfGray_25);
+}
